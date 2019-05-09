@@ -1,1 +1,40 @@
 /* All styles for your header Components live here */
+.post-head{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 20px;
+}
+
+.post-head img {
+  width: 85px;
+  margin: 0 15px 15px 15px;
+}
+
+.post-info {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.post-info p{
+  padding-right: 10px;
+  margin: 0;
+}
+
+.post-info p.post-author {
+  font-weight: bold;
+}
+
+.post-info .post-authTag, .post-info .post-date {
+  color: #b5b5b5;
+}
+
+.post-info .post-authTag::after {
+  content: "·";
+  position: relative;
+  left: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
