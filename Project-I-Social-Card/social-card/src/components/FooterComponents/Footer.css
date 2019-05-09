@@ -1,0 +1,23 @@
+.post-footer {
+  padding-top: 15px;
+  margin-left: 112px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.post-footer div {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  margin-right: 40px;
+}
+
+.post-footer div i{
+  margin-right: 10px;
+}
+
+.post-footer div i:hover {
+  color: #cacaca;
+}
