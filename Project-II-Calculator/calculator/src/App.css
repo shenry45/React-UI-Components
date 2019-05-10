@@ -1,0 +1,16 @@
+#root {
+  width:500px;
+  margin: 0 auto;
+}
+.calc-btns {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.left-panel {
+  width: 375px;
+}
+.right-panel {
+  width: 125px;
+}
