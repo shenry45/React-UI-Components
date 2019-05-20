@@ -1,1 +1,18 @@
 /* All styles for your Card Components live here */
+.card {
+  display: flex;
+  flex-flow: column nowrap;
+  margin-left: 112px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+}
+
+.card .card-content {
+  padding: 15px;
+  border: 1px solid #cacaca;
+  border-radius: 0 0 10px 10px;
+}
